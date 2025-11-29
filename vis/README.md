@@ -5,7 +5,9 @@ the upper left is the input image with a few exemplar boxes,
 
 the upper right with green boxes is the ground truth,
 
-the bottom left is model prediction outputs with highlighted object centers and yellow bounding boxes.
+and the bottom left is model prediction outputs with highlighted object centers and yellow bounding boxes.
+
+\#GT-\#PRED is the deviation of count from prediction to ground truth, where possitive value stands for undercounting and negative is overcounting.
 
 Here, /baseline contains the outputs from baseline GeCo, and /LF contains the ones from our redesigned model GeCo-LF.
 
